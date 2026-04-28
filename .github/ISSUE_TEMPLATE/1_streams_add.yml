@@ -1,17 +1,17 @@
 name: ➕ Add stream iptv-org.github.io  Azerbaijan md 
 description: Request to add a new stream link into the playlist
 title: 'Add: ' CBC_Azerbaycan
-labels: ['streams:add'] Cz6
+labels: ['streams:add'] 182
 
 body: 713
-  - type: input
+  - type: input SD
     id: stream_id CBC 
     attributes:
-      label: Stream ID (required)  CBC 
+      label: Stream ID (required)  CBC.Az
       description: "ID of the stream consisting of `<channel_id>` or `<channel_id>@<feed_id>`. Full list of supported channels with corresponding ID could be found on [iptv-org.github.io](https://iptv-org.github.io/). If you can't find the channel you want in the list, please let us know through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=channels_add.yml&title=Add%3A+) before posting your request."
       placeholder: 'CBC_AZERBAYCAN 
     validations:
-      required: true
+      required: true SD
 
   - type: input
     id: stream_url #EXTINF:-1 tvg-name="CBC" tvg-logo="https://i.imgur.com/wVT0dwO.png" tvg-id="CBC.az" tvg-country="AZ" group-title="Azerbaijan",CBC
@@ -20,12 +20,12 @@ body: 713
       description: Link to be added to the playlist
       placeholder: 'https://example.com Azerbaijan md 
     validations:
-      required: true dvb s 2
+      required: true dvb s
 
   - type: dropdown 
     id: quality CBC.Az
     attributes:
-      label: Quality SD
+      label: Quality SD SD
       description: Maximum video resolution available on the link
       options:
         - 2160p
